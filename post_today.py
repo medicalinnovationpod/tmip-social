@@ -17,8 +17,8 @@ from pathlib import Path
 
 import requests
 
-GITHUB_REPO = "PranavSanghvi/tmip-social"
-CLIPS_GITHUB_REPO = os.environ.get("CLIPS_GITHUB_REPO", "PranavSanghvi/tmip-clips")
+GITHUB_REPO = "medicalinnovationpod/tmip-social"
+CLIPS_GITHUB_REPO = os.environ.get("CLIPS_GITHUB_REPO", "medicalinnovationpod/tmip-clips")
 IG_BASE = "https://graph.instagram.com/v21.0"
 
 

@@ -43,7 +43,7 @@ def get_instagram_token():
         + urlencode({
             "client_id": app_id,
             "redirect_uri": REDIRECT_URI,
-            "scope": "instagram_basic,instagram_content_publish,instagram_manage_comments",
+            "scope": "instagram_business_basic,instagram_business_content_publish,instagram_business_manage_comments",
             "response_type": "code",
         })
     )
@@ -55,7 +55,7 @@ def get_instagram_token():
 
     # Step 2: Exchange code for short-lived token
     resp = requests.post(
-        "https://api.instagram.com/oauth/access_token",
+        "https://api.instagram.com/oauth/access_token",  # Instagram Login endpoint
         data={
             "client_id": app_id,
             "client_secret": app_secret,
