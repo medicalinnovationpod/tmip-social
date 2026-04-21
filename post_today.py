@@ -150,20 +150,17 @@ def post_instagram_comment(media_id, text, token):
 # ── YouTube ───────────────────────────────────────────────────────────────────
 
 def get_youtube_access_token(client_id, client_secret, refresh_token):
-    resp = requests.post(
-        "https://oauth2.googleapis.com/token",
-        data={
-            "client_id": client_id,
-            "client_secret": client_secret,
-            "refresh_token": refresh_token,
-            "grant_type": "refresh_token",
-        },
-        timeout=15
+    from google.oauth2.credentials import Credentials
+    from google.auth.transport.requests import Request as GoogleRequest
+    creds = Credentials(
+        token=None,
+        refresh_token=refresh_token,
+        token_uri="https://oauth2.googleapis.com/token",
+        client_id=client_id,
+        client_secret=client_secret,
     )
-    if not resp.ok:
-        print(f"  YouTube token error: {resp.status_code} — {resp.text}")
-        resp.raise_for_status()
-    return resp.json()["access_token"]
+    creds.refresh(GoogleRequest())
+    return creds.token
 
 
 def post_youtube_short(video_path, title, description, tags, access_token):
