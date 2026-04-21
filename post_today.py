@@ -350,7 +350,7 @@ def append_log(entry):
 
 
 def commit_and_push(message):
-    remote = f"https://x-access-token:{os.environ['GITHUB_TOKEN']}@github.com/{GITHUB_REPO}.git"
+    remote = f"https://x-access-token:{os.environ['GH_PAT']}@github.com/{GITHUB_REPO}.git"
     subprocess.run(["git", "remote", "set-url", "origin", remote], check=True)
     subprocess.run(["git", "add", "schedule.json", "logs/"], check=True)
     result = subprocess.run(["git", "diff", "--cached", "--quiet"])
