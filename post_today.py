@@ -385,9 +385,10 @@ def main():
     yt_client_id = env("YOUTUBE_CLIENT_ID")
     yt_client_secret = env("YOUTUBE_CLIENT_SECRET")
     yt_refresh_token = env("YOUTUBE_REFRESH_TOKEN")
-    tt_client_key = env("TIKTOK_CLIENT_KEY")
-    tt_client_secret = env("TIKTOK_CLIENT_SECRET")
-    tt_refresh_token = env("TIKTOK_REFRESH_TOKEN")
+    tt_client_key = os.environ.get("TIKTOK_CLIENT_KEY", "")
+    tt_client_secret = os.environ.get("TIKTOK_CLIENT_SECRET", "")
+    tt_refresh_token = os.environ.get("TIKTOK_REFRESH_TOKEN", "")
+    tiktok_enabled = all([tt_client_key, tt_client_secret, tt_refresh_token])
     gh_pat = os.environ.get("GH_PAT", "")
 
     log_entry = {
@@ -439,14 +440,18 @@ def main():
         )
         log_entry["youtube"] = yt_url
 
-        # Post to TikTok
-        print("\nPosting to TikTok...")
-        tiktok_caption = post.get("tiktok_caption") or post["ig_caption"]
-        tt_token, new_tt_refresh = get_tiktok_access_token(tt_client_key, tt_client_secret, tt_refresh_token)
-        if new_tt_refresh and new_tt_refresh != tt_refresh_token:
-            update_github_secret("TIKTOK_REFRESH_TOKEN", new_tt_refresh, gh_pat)
-        tt_publish_id = post_tiktok_video(post["r2_url"], tiktok_caption, tt_token)
-        log_entry["tiktok"] = tt_publish_id
+        # Post to TikTok (optional — skipped if secrets not configured)
+        tt_publish_id = None
+        if tiktok_enabled:
+            print("\nPosting to TikTok...")
+            tiktok_caption = post.get("tiktok_caption") or post["ig_caption"]
+            tt_token, new_tt_refresh = get_tiktok_access_token(tt_client_key, tt_client_secret, tt_refresh_token)
+            if new_tt_refresh and new_tt_refresh != tt_refresh_token:
+                update_github_secret("TIKTOK_REFRESH_TOKEN", new_tt_refresh, gh_pat)
+            tt_publish_id = post_tiktok_video(post["r2_url"], tiktok_caption, tt_token)
+            log_entry["tiktok"] = tt_publish_id
+        else:
+            print("\nTikTok not configured — skipping.")
 
         # Mark as posted
         for p in schedule["posts"]:
@@ -456,7 +461,7 @@ def main():
                     "posted_at": now_utc,
                     "ig_media_id": media_id,
                     "yt_url": yt_url,
-                    "tt_publish_id": tt_publish_id,
+                    **({"tt_publish_id": tt_publish_id} if tt_publish_id else {}),
                 })
 
         save_schedule(schedule)
@@ -470,7 +475,8 @@ def main():
         print(f"\nCleaning up {clip_filename} from clips repo...")
         delete_clip_from_github(clip_filename, gh_pat)
 
-        print(f"\n✓ All done! Instagram, YouTube, and TikTok posted successfully.")
+        platforms = "Instagram, YouTube" + (", and TikTok" if tiktok_enabled else "")
+        print(f"\n✓ All done! {platforms} posted successfully.")
 
     except Exception as e:
         error_msg = str(e)

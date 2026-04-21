@@ -56,21 +56,22 @@ In the dashboard:
   4. After it loads back, you'll see the account listed with a "Generate token" button
   5. Click "Generate token" → copy the token shown
 """)
-    short_token = input("Paste the token here: ").strip()
+    token = input("Paste the token here: ").strip()
 
-    # Exchange for long-lived token (60 days)
-    print("\nExchanging for long-lived token...")
+    # Dashboard tokens are already long-lived; try exchange anyway, fall back to original
+    print("\nValidating token...")
     resp = requests.get(
         "https://graph.instagram.com/access_token",
         params={
             "grant_type": "ig_exchange_token",
             "client_secret": app_secret,
-            "access_token": short_token,
+            "access_token": token,
         },
         timeout=15
     )
-    resp.raise_for_status()
-    long_token = resp.json()["access_token"]
+    long_token = resp.json().get("access_token", token) if resp.ok else token
+    if not resp.ok:
+        print("  (Token is already long-lived — using as-is)")
 
     # Get user ID
     resp2 = requests.get(
