@@ -5,6 +5,7 @@ Runs daily via GitHub Actions at 12pm EST.
 """
 
 import os
+import re
 import sys
 import json
 import time
@@ -17,6 +18,7 @@ from pathlib import Path
 import requests
 
 GITHUB_REPO = "PranavSanghvi/tmip-social"
+CLIPS_GITHUB_REPO = os.environ.get("CLIPS_GITHUB_REPO", "PranavSanghvi/tmip-clips")
 IG_BASE = "https://graph.instagram.com/v21.0"
 
 
@@ -210,6 +212,39 @@ def post_youtube_short(video_path, title, description, tags, access_token):
     url = f"https://youtube.com/shorts/{video_id}"
     print(f"  ✓ Uploaded — {url}")
     return url
+
+
+# ── GitHub clip cleanup ───────────────────────────────────────────────────────
+
+def delete_clip_from_github(filename, gh_pat):
+    """Delete a clip file from the public clips repo after confirmed posting."""
+    if not gh_pat:
+        return
+    headers = {
+        "Authorization": f"Bearer {gh_pat}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    resp = requests.get(
+        f"https://api.github.com/repos/{CLIPS_GITHUB_REPO}/contents/{filename}",
+        headers=headers, timeout=15
+    )
+    if resp.status_code == 404:
+        return
+    if not resp.ok:
+        print(f"  Warning: could not fetch clip SHA for deletion ({resp.status_code})")
+        return
+    sha = resp.json()["sha"]
+    del_resp = requests.delete(
+        f"https://api.github.com/repos/{CLIPS_GITHUB_REPO}/contents/{filename}",
+        headers=headers,
+        json={"message": f"Remove {filename} after posting", "sha": sha},
+        timeout=15
+    )
+    if del_resp.ok:
+        print(f"  ✓ Deleted {filename} from {CLIPS_GITHUB_REPO}")
+    else:
+        print(f"  Warning: clip deletion failed ({del_resp.status_code})")
 
 
 # ── TikTok ───────────────────────────────────────────────────────────────────
@@ -427,6 +462,14 @@ def main():
         save_schedule(schedule)
         append_log(log_entry)
         commit_and_push(f"Posted: {post['episode']} Clip {post['clip_number']} ({today})")
+
+        # Delete clip from public GitHub hosting repo now that all platforms are posted
+        clip_num = post["clip_number"]
+        ep_num = re.search(r"\d+", post["episode"]).group()
+        clip_filename = f"episode-{ep_num}-clip-{int(clip_num):02d}.mp4"
+        print(f"\nCleaning up {clip_filename} from clips repo...")
+        delete_clip_from_github(clip_filename, gh_pat)
+
         print(f"\n✓ All done! Instagram, YouTube, and TikTok posted successfully.")
 
     except Exception as e:
