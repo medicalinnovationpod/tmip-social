@@ -160,7 +160,9 @@ def get_youtube_access_token(client_id, client_secret, refresh_token):
         },
         timeout=15
     )
-    resp.raise_for_status()
+    if not resp.ok:
+        print(f"  YouTube token error: {resp.status_code} — {resp.text}")
+        resp.raise_for_status()
     return resp.json()["access_token"]
 
 
@@ -425,7 +427,6 @@ def main():
         # Post to Instagram
         print("\nPosting to Instagram...")
         media_id = post_instagram_reel(post["r2_url"], post["ig_caption"], ig_user_id, ig_token)
-        post_instagram_comment(media_id, f"Listen now: {post['episode_url']}", ig_token)
         log_entry["instagram"] = media_id
 
         # Post to YouTube
