@@ -33,44 +33,34 @@ REDIRECT_URI = "http://localhost:8080/callback"
 # ── Instagram ─────────────────────────────────────────────────────────────────
 
 def get_instagram_token():
+    """
+    Uses the Meta App Dashboard token generator (no redirect URI needed).
+
+    In the dashboard: Instagram → API setup with Instagram login → Step 2 →
+    Add account → log in → copy the generated token.
+    """
     print("\n=== Instagram Long-Lived Token ===\n")
     app_id = input("Enter your Meta App ID: ").strip()
     app_secret = input("Enter your Meta App Secret: ").strip()
 
-    # Step 1: Authorize
-    auth_url = (
-        "https://www.instagram.com/oauth/authorize?"
-        + urlencode({
-            "client_id": app_id,
-            "redirect_uri": REDIRECT_URI,
-            "scope": "instagram_business_basic,instagram_business_content_publish,instagram_business_manage_comments",
-            "response_type": "code",
-        })
-    )
-    print(f"\nOpening browser for authorization...")
-    print(f"URL: {auth_url}\n")
-    webbrowser.open(auth_url)
+    dashboard_url = f"https://developers.facebook.com/apps/{app_id}/use_cases/customize/API-Setup/?use_case_enum=INSTAGRAM_BUSINESS"
+    print(f"\nOpening your Meta App Dashboard...")
+    print(f"URL: {dashboard_url}")
+    webbrowser.open(dashboard_url)
 
-    code = _capture_callback_code()
+    print("""
+In the dashboard:
+  1. Scroll to section 2 "Generate access tokens"
+  2. Click "Add account"
+  3. Log in with the podcast Instagram account
+  4. After it loads back, you'll see the account listed with a "Generate token" button
+  5. Click "Generate token" → copy the token shown
+""")
+    short_token = input("Paste the token here: ").strip()
 
-    # Step 2: Exchange code for short-lived token
-    resp = requests.post(
-        "https://api.instagram.com/oauth/access_token",  # Instagram Login endpoint
-        data={
-            "client_id": app_id,
-            "client_secret": app_secret,
-            "grant_type": "authorization_code",
-            "redirect_uri": REDIRECT_URI,
-            "code": code,
-        },
-        timeout=15
-    )
-    resp.raise_for_status()
-    short_token = resp.json()["access_token"]
-    user_id = resp.json()["user_id"]
-
-    # Step 3: Exchange for long-lived token (60 days)
-    resp2 = requests.get(
+    # Exchange for long-lived token (60 days)
+    print("\nExchanging for long-lived token...")
+    resp = requests.get(
         "https://graph.instagram.com/access_token",
         params={
             "grant_type": "ig_exchange_token",
@@ -79,10 +69,21 @@ def get_instagram_token():
         },
         timeout=15
     )
-    resp2.raise_for_status()
-    long_token = resp2.json()["access_token"]
+    resp.raise_for_status()
+    long_token = resp.json()["access_token"]
 
-    print("\n✓ Success! Add these to GitHub Secrets:\n")
+    # Get user ID
+    resp2 = requests.get(
+        "https://graph.instagram.com/v21.0/me",
+        params={"fields": "user_id,username", "access_token": long_token},
+        timeout=15
+    )
+    resp2.raise_for_status()
+    user_id = resp2.json().get("user_id") or resp2.json().get("id")
+    username = resp2.json().get("username", "")
+
+    print(f"\n✓ Success! Account: @{username}\n")
+    print("Add these to GitHub Secrets:\n")
     print(f"  INSTAGRAM_USER_ID       = {user_id}")
     print(f"  INSTAGRAM_ACCESS_TOKEN  = {long_token}")
     print("\nNote: The workflow auto-refreshes this token daily.")
