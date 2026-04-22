@@ -1,9 +1,7 @@
 name: Post Today's Clip
 
 on:
-  schedule:
-    - cron: '0 17 * * *'  # 12:00 PM EST (17:00 UTC)
-  workflow_dispatch:        # manual trigger from GitHub UI
+  workflow_dispatch:        # triggered by cron-job.org daily at 12pm ET
 
 jobs:
   post:
