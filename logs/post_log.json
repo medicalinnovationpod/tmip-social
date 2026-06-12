@@ -482,5 +482,16 @@
     "youtube": "https://youtube.com/shorts/zERa3gQWDfU",
     "tiktok": null,
     "error": null
+  },
+  {
+    "date": "2026-06-12",
+    "posted_at": "2026-06-12T16:00:25.570375+00:00",
+    "episode": "Episode 35 - Curology",
+    "clip_number": 12,
+    "title": "Build an App: The Stanford MBA Equivalent",
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null,
+    "error": "Instagram video processing timed out after ~7 minutes."
   }
 ]
