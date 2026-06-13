@@ -493,5 +493,16 @@
     "youtube": null,
     "tiktok": null,
     "error": "Instagram video processing timed out after ~7 minutes."
+  },
+  {
+    "date": "2026-06-13",
+    "posted_at": "2026-06-13T16:00:23.692410+00:00",
+    "episode": "Episode 35 - Curology",
+    "clip_number": 13,
+    "title": "Only 17% of Health Startups Have a Physician Founder",
+    "instagram": "17973466779099838",
+    "youtube": "https://youtube.com/shorts/Hra_IAvM8yE",
+    "tiktok": null,
+    "error": null
   }
 ]
