@@ -1298,6 +1298,289 @@
       "posted_at": "2026-06-14T16:00:33.179569+00:00",
       "ig_media_id": "18377511823203685",
       "yt_url": "https://youtube.com/shorts/X048gEN9LQY"
+    },
+    {
+      "date": "2026-06-15",
+      "clip_number": 1,
+      "title": "Physicians Waste a Third of Their Time",
+      "episode": "Episode 36",
+      "duration": 22,
+      "ig_caption": "Physicians spend a third of their working hours on paperwork, not patients.\n\nOur guest is the CEO and co-founder of Insight Health, building agentic AI that automates the full clinical operations stack for independent practices.\n\nHere's how they're giving doctors their time back, and why the current system is broken by design.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthcareAI #PriorAuthorization #IndependentMedicalPractice #ClinicalOperations",
+      "yt_description": "Physicians spend a third of their working hours on paperwork, not patients.\n\nOur guest is the CEO and co-founder of Insight Health, building agentic AI that automates the full clinical operations stack for independent practices.\n\nHere's how they're giving doctors their time back, and why the current system is broken by design.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#HealthcareAI #PriorAuthorization #IndependentMedicalPractice #ClinicalOperations",
+      "tiktok_caption": "Doctors lose 1/3 of their time to paperwork. The CEO of Insight Health is fixing that. Here's how. #HealthcareAI #PriorAuthorization #MedTech",
+      "hashtags": [
+        "HealthcareAI",
+        "PriorAuthorization",
+        "IndependentMedicalPractice",
+        "ClinicalOperations",
+        "MedTech"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-01.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 1.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-16",
+      "clip_number": 2,
+      "title": "AI Did a Full Patient Intake Autonomously",
+      "episode": "Episode 36",
+      "duration": 15,
+      "ig_caption": "They built the first ever fully autonomous AI patient intake \u2014 and it ran without a single human in the loop.\n\nOur guest pioneered autonomous pre-visit encounters at their company, starting with a real oncology clinic on the West Coast.\n\nWatch to understand what a truly AI-run patient intake actually looks like in practice \u2014 and why oncology was the proving ground.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#AIinHealthcare #PatientIntake #HealthcareAI #OncologyTech",
+      "yt_description": "They built the first ever fully autonomous AI patient intake \u2014 and it ran without a single human in the loop.\n\nOur guest pioneered autonomous pre-visit encounters at their company, starting with a real oncology clinic on the West Coast.\n\nWatch to understand what a truly AI-run patient intake actually looks like in practice \u2014 and why oncology was the proving ground.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#AIinHealthcare #PatientIntake #HealthcareAI #OncologyTech",
+      "tiktok_caption": "First ever fully autonomous AI patient intake \u2014 no humans involved. Our guest did it first at an oncology clinic. #AIinHealthcare #PatientIntake #HealthcareAI",
+      "hashtags": [
+        "AIinHealthcare",
+        "PatientIntake",
+        "HealthcareAI",
+        "OncologyTech"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-02.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 2.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-17",
+      "clip_number": 3,
+      "title": "iPad Intake Forms Are Broken \u2014 Here's Why",
+      "episode": "Episode 36",
+      "duration": 30,
+      "ig_caption": "1 in 2 clinics: that iPad intake form never even makes it into your chart.\n\nOur guest has seen this firsthand working across clinic operations and digital health workflows.\n\nThey break down exactly where the intake process silently breaks and what actually needs to change.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthcareIT #PatientExperience #ClinicalWorkflow #DigitalHealth #EHR",
+      "yt_description": "1 in 2 clinics: that iPad intake form never even makes it into your chart.\n\nOur guest has seen this firsthand working across clinic operations and digital health workflows.\n\nThey break down exactly where the intake process silently breaks and what actually needs to change.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#HealthcareIT #PatientExperience #ClinicalWorkflow #DigitalHealth #EHR",
+      "tiktok_caption": "1 in 2 clinics: your intake form never reaches the doctor. Our guest explains why the system is more broken than you think. #HealthcareIT #PatientExperience #DigitalHealth",
+      "hashtags": [
+        "HealthcareIT",
+        "PatientExperience",
+        "ClinicalWorkflow",
+        "DigitalHealth",
+        "EHR"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-03.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 3.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-18",
+      "clip_number": 4,
+      "title": "AI Knows What to Ask a Cancer Patient",
+      "episode": "Episode 36",
+      "duration": 39,
+      "ig_caption": "A cancer surgeon spends the first 25 minutes of a visit on ancestry and everything that brought the patient to that point.\n\nOur guest works at the intersection of AI and clinical intake, building systems that know what a patient's diabetes medication actually means for their cancer care.\n\nWatch to understand why collecting patient history is a conversation problem, not a form problem, and what it takes for AI to finally get that right.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#CancerCare #ClinicalAI #HealthcareInnovation #PatientHistory",
+      "yt_description": "A cancer surgeon spends the first 25 minutes of a visit on ancestry and everything that brought the patient to that point.\n\nOur guest works at the intersection of AI and clinical intake, building systems that know what a patient's diabetes medication actually means for their cancer care.\n\nWatch to understand why collecting patient history is a conversation problem, not a form problem, and what it takes for AI to finally get that right.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#CancerCare #ClinicalAI #HealthcareInnovation #PatientHistory",
+      "tiktok_caption": "AI that knows what to ask a cancer patient and why it matters \ud83c\udf99\ufe0f #CancerCare #ClinicalAI #HealthcareInnovation",
+      "hashtags": [
+        "CancerCare",
+        "ClinicalAI",
+        "HealthcareInnovation",
+        "PatientHistory"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-04.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 4.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-19",
+      "clip_number": 5,
+      "title": "Voice AI Unlocks What Forms Never Could",
+      "episode": "Episode 36",
+      "duration": 24,
+      "ig_caption": "Voice AI lets patients speak their history instead of filling out forms \u2014 and that changes everything.\nOur guest works at the intersection of clinical data capture and AI-driven patient intake, where this shift is already happening.\nFind out why a spoken answer captures what a checkbox never could, and what that means for the future of care.\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#VoiceAI #HealthcareAI #PatientExperience #DigitalHealth",
+      "yt_description": "Voice AI lets patients speak their history instead of filling out forms \u2014 and that changes everything.\nOur guest works at the intersection of clinical data capture and AI-driven patient intake, where this shift is already happening.\nFind out why a spoken answer captures what a checkbox never could, and what that means for the future of care.\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#VoiceAI #HealthcareAI #PatientExperience #DigitalHealth",
+      "tiktok_caption": "Voice AI lets patients speak their history instead of filling out a form \u2014 our guest explains why that gap is massive. #VoiceAI #HealthcareAI #DigitalHealth",
+      "hashtags": [
+        "VoiceAI",
+        "HealthcareAI",
+        "PatientExperience",
+        "DigitalHealth"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-05.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 5.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-20",
+      "clip_number": 6,
+      "title": "We Cleared a 4,000 Patient Backlog in 3 Weeks",
+      "episode": "Episode 36",
+      "duration": 42,
+      "ig_caption": "They had a 4,000 patient backlog sitting for six months. Our guest's team cleared it in three weeks.\n\nOur guest built an AI-driven patient coordination system that handles referrals, clinical screening, and intake for colorectal cancer screening at scale.\n\nFind out exactly how they automated the steps that four or five staff couldn't keep up with manually.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#ColorectalCancerScreening #HealthcareAI #PatientAccess #ClinicalOperations",
+      "yt_description": "They had a 4,000 patient backlog sitting for six months. Our guest's team cleared it in three weeks.\n\nOur guest built an AI-driven patient coordination system that handles referrals, clinical screening, and intake for colorectal cancer screening at scale.\n\nFind out exactly how they automated the steps that four or five staff couldn't keep up with manually.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#ColorectalCancerScreening #HealthcareAI #PatientAccess #ClinicalOperations",
+      "tiktok_caption": "4,000 patient backlog. 6 months wait. Cleared in 3 weeks with AI. Here's how they did it. #HealthcareAI #Colonoscopy #PatientCare",
+      "hashtags": [
+        "ColorectalCancerScreening",
+        "HealthcareAI",
+        "PatientAccess",
+        "ClinicalOperations"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-06.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 6.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-21",
+      "clip_number": 7,
+      "title": "Why Physicians Make the Best Startup Founders",
+      "episode": "Episode 36",
+      "duration": 34,
+      "ig_caption": "Physicians already have the problem-solving skills that make a great startup founder.\n\nOur guest has lived both worlds, bridging clinical thinking with the chaos of building a company from scratch.\n\nWatch to find out why breaking down a complex diagnosis and breaking down a startup problem are more similar than you think.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#PhysicianFounder #HealthcareStartup #MedicalEntrepreneurship #StartupMindset",
+      "yt_description": "Physicians already have the problem-solving skills that make a great startup founder.\n\nOur guest has lived both worlds, bridging clinical thinking with the chaos of building a company from scratch.\n\nWatch to find out why breaking down a complex diagnosis and breaking down a startup problem are more similar than you think.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#PhysicianFounder #HealthcareStartup #MedicalEntrepreneurship #StartupMindset",
+      "tiktok_caption": "Physicians already think like startup founders. Our guest breaks down exactly why. #PhysicianFounder #HealthcareStartup #MedicalEntrepreneurship",
+      "hashtags": [
+        "PhysicianFounder",
+        "HealthcareStartup",
+        "MedicalEntrepreneurship",
+        "StartupMindset"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-07.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 7.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-22",
+      "clip_number": 8,
+      "title": "Building Products Is No Longer the Hard Part",
+      "episode": "Episode 36",
+      "duration": 25,
+      "ig_caption": "There is no product barrier anymore \u2014 anyone can spin up an AI tool and build something impressive.\nOur guest built a healthcare company where deep clinical workflow knowledge became the real moat, not the tech.\nWatch to find out what actually separates the products that win from the ones that get copied overnight.\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthcareInnovation #AIinHealthcare #FounderMindset #MedTech",
+      "yt_description": "There is no product barrier anymore \u2014 anyone can spin up an AI tool and build something impressive.\nOur guest built a healthcare company where deep clinical workflow knowledge became the real moat, not the tech.\nWatch to find out what actually separates the products that win from the ones that get copied overnight.\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#HealthcareInnovation #AIinHealthcare #FounderMindset #MedTech",
+      "tiktok_caption": "AI killed the product barrier. Our guest explains what the real moat is now in healthcare. #HealthcareInnovation #AIinHealthcare #MedTech",
+      "hashtags": [
+        "HealthcareInnovation",
+        "AIinHealthcare",
+        "FounderMindset",
+        "MedTech"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-08.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 8.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-23",
+      "clip_number": 9,
+      "title": "The Real Startup Differentiator Is Not the Product",
+      "episode": "Episode 36",
+      "duration": 26,
+      "ig_caption": "Building is not the hurdle anymore. Distribution is.\n\nOur guest breaks down why deep workflow knowledge and clinical credibility are the real keys to getting your product into the hands of physicians and clinic managers who can actually use it.\n\nIf you think a great product sells itself in healthcare, this clip will change your mind.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthcareStartups #MedicalDistribution #HealthTechFounders #ClinicalAdoption",
+      "yt_description": "Building is not the hurdle anymore. Distribution is.\n\nOur guest breaks down why deep workflow knowledge and clinical credibility are the real keys to getting your product into the hands of physicians and clinic managers who can actually use it.\n\nIf you think a great product sells itself in healthcare, this clip will change your mind.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#HealthcareStartups #MedicalDistribution #HealthTechFounders #ClinicalAdoption",
+      "tiktok_caption": "Building is easy now. Distribution is what kills healthcare startups. Our guest explains the real differentiator. #HealthcareStartups #HealthTech #MedicalDistribution",
+      "hashtags": [
+        "HealthcareStartups",
+        "MedicalDistribution",
+        "HealthTechFounders",
+        "ClinicalAdoption"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-09.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 9.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-24",
+      "clip_number": 10,
+      "title": "Four Models Run Simultaneously to Protect Patients",
+      "episode": "Episode 36",
+      "duration": 45,
+      "ig_caption": "In a patient-facing application, we have at any given moment about four different models running simultaneously to protect patients.\n\nOur guest builds AI systems deployed directly with patients, where a single failure isn't a bug report, it's a safety incident.\n\nFind out how a supervisory model catches hallucinations and decides when a patient needs to call 911 before it's too late.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthcareAI #AIPatientSafety #ClinicalAI #MedicalTechnology",
+      "yt_description": "In a patient-facing application, we have at any given moment about four different models running simultaneously to protect patients.\n\nOur guest builds AI systems deployed directly with patients, where a single failure isn't a bug report, it's a safety incident.\n\nFind out how a supervisory model catches hallucinations and decides when a patient needs to call 911 before it's too late.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#HealthcareAI #AIPatientSafety #ClinicalAI #MedicalTechnology",
+      "tiktok_caption": "4 AI models run at once just to keep a patient safe on a call. Here's what each one does \ud83d\udc47 #HealthcareAI #AIPatientSafety #ClinicalAI",
+      "hashtags": [
+        "HealthcareAI",
+        "AIPatientSafety",
+        "ClinicalAI",
+        "MedicalTechnology"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-10.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 10.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-25",
+      "clip_number": 11,
+      "title": "AI Is Helping Independent Clinics Stay Private",
+      "episode": "Episode 36",
+      "duration": 33,
+      "ig_caption": "AI is helping independent clinics stay private \u2014 and doctors have a real emotional connection to it.\n\nOur guest built a platform tackling the administrative overload crushing private practices, where every wasted dollar hits harder than it does at a hospital system.\n\nFind out why the cost problem in healthcare admin is the same whether you're a solo clinic or a massive health system, just at a different scale.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#PrivatePractice #HealthcareAI #MedicalAdministration #HealthTech",
+      "yt_description": "AI is helping independent clinics stay private \u2014 and doctors have a real emotional connection to it.\n\nOur guest built a platform tackling the administrative overload crushing private practices, where every wasted dollar hits harder than it does at a hospital system.\n\nFind out why the cost problem in healthcare admin is the same whether you're a solo clinic or a massive health system, just at a different scale.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#PrivatePractice #HealthcareAI #MedicalAdministration #HealthTech",
+      "tiktok_caption": "AI is keeping private clinics independent. Our guest explains why admin costs are breaking small practices first. #PrivatePractice #HealthcareAI #HealthTech",
+      "hashtags": [
+        "PrivatePractice",
+        "HealthcareAI",
+        "MedicalAdministration",
+        "HealthTech"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-11.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 11.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-26",
+      "clip_number": 12,
+      "title": "Colonoscopy Age Keeps Dropping \u2014 Here's Why It Matters",
+      "episode": "Episode 36",
+      "duration": 41,
+      "ig_caption": "They just lowered the colonoscopy age to 45 and it's probably going to drop to 40.\n\nOur guest breaks down why the current screening process is broken for both patients and clinics \u2014 and what a smarter system actually looks like.\n\nIf you're between 40 and 50, the way you get screened today is more complicated than it needs to be. Here's what should change.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#ColonoscopyScreening #ColorectalCancer #GIHealth #PreventativeCare",
+      "yt_description": "They just lowered the colonoscopy age to 45 and it's probably going to drop to 40.\n\nOur guest breaks down why the current screening process is broken for both patients and clinics \u2014 and what a smarter system actually looks like.\n\nIf you're between 40 and 50, the way you get screened today is more complicated than it needs to be. Here's what should change.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#ColonoscopyScreening #ColorectalCancer #GIHealth #PreventativeCare",
+      "tiktok_caption": "Colonoscopy age dropping to 40? Our guest explains why the screening system is broken and how to fix it. #ColorectalCancer #ColonoscopyScreening #GIHealth",
+      "hashtags": [
+        "ColonoscopyScreening",
+        "ColorectalCancer",
+        "GIHealth",
+        "PreventativeCare"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-12.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 12.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-27",
+      "clip_number": 13,
+      "title": "Specialty Medicine Is Consolidating Fast \u2014 and Why",
+      "episode": "Episode 36",
+      "duration": 51,
+      "ig_caption": "What happened to primary care 15 years ago is now happening to specialty medicine \u2014 fast.\n\nOur guest has worked directly with specialty groups navigating consolidation pressures in GI, neurology, and beyond.\n\nWe get into why procedure revenue is the pressure point, and what the clinics that survive are doing differently.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#SpecialtyMedicine #HealthcareConsolidation #GastroenterologyBusiness #PhysicianPractice",
+      "yt_description": "What happened to primary care 15 years ago is now happening to specialty medicine \u2014 fast.\n\nOur guest has worked directly with specialty groups navigating consolidation pressures in GI, neurology, and beyond.\n\nWe get into why procedure revenue is the pressure point, and what the clinics that survive are doing differently.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#SpecialtyMedicine #HealthcareConsolidation #GastroenterologyBusiness #PhysicianPractice",
+      "tiktok_caption": "Specialty medicine is consolidating fast. Our guest breaks down why GI clinics are fighting to survive and what the winners do differently. #SpecialtyMedicine #HealthcareConsolidation #PhysicianPractice",
+      "hashtags": [
+        "SpecialtyMedicine",
+        "HealthcareConsolidation",
+        "GastroenterologyBusiness",
+        "PhysicianPractice"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-13.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 13.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-06-28",
+      "clip_number": 14,
+      "title": "The Only Startup Advice That Actually Matters in Healthcare",
+      "episode": "Episode 36",
+      "duration": 44,
+      "ig_caption": "The hardest thing to get right in healthcare startups isn't the product. It's distribution.\n\nOur guest built in healthcare and will be the first to admit they're not a software engineer \u2014 which makes their take on go-to-market strategy worth hearing.\n\nThey break down the one \"wedge\" most founders overlook, and why nailing it matters more than your tech ever will.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthcareStartups #DigitalHealth #HealthTech #StartupGTM #HealthcareInnovation",
+      "yt_description": "The hardest thing to get right in healthcare startups isn't the product. It's distribution.\n\nOur guest built in healthcare and will be the first to admit they're not a software engineer \u2014 which makes their take on go-to-market strategy worth hearing.\n\nThey break down the one \"wedge\" most founders overlook, and why nailing it matters more than your tech ever will.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-36\n\n#HealthcareStartups #DigitalHealth #HealthTech #StartupGTM #HealthcareInnovation",
+      "tiktok_caption": "The hardest thing in healthcare startups isn't building the product. Our guest reveals the distribution wedge most founders miss. #HealthcareStartups #HealthTech #DigitalHealth",
+      "hashtags": [
+        "HealthcareStartups",
+        "DigitalHealth",
+        "HealthTech",
+        "StartupGTM",
+        "HealthcareInnovation"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-36",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-36-clip-14.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 36 - Clip 14.mp4",
+      "status": "pending"
     }
   ]
 }
