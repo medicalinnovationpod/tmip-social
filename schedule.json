@@ -1623,6 +1623,288 @@
       "posted_at": "2026-06-28T16:00:21.725884+00:00",
       "ig_media_id": "17900275242463849",
       "yt_url": "https://youtube.com/shorts/OBEWJnEXKzk"
+    },
+    {
+      "date": "2026-08-07",
+      "clip_number": 1,
+      "title": "10,000 Skin Cancer Diagnoses Every Single Day",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 25,
+      "ig_caption": "10,000 people are diagnosed with skin cancer every single day in the US.\nOur guest breaks down why one of the most treatable cancers is still killing people at scale.\nThe answer has nothing to do with medicine and everything to do with access.\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#SkinCancer #Dermatology #HealthcareAccess #Melanoma",
+      "yt_description": "10,000 people are diagnosed with skin cancer every single day in the US.\nOur guest breaks down why one of the most treatable cancers is still killing people at scale.\nThe answer has nothing to do with medicine and everything to do with access.\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#SkinCancer #Dermatology #HealthcareAccess #Melanoma",
+      "tiktok_caption": "10,000 skin cancer diagnoses daily. Our guest explains why a 3-month wait could cost you your life. #SkinCancer #Melanoma #HealthcareAccess",
+      "hashtags": [
+        "SkinCancer",
+        "Dermatology",
+        "HealthcareAccess",
+        "Melanoma"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-01.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 1.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-08",
+      "clip_number": 2,
+      "title": "He Saved His Professor's Life Before College",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 23,
+      "ig_caption": "He built a skin cancer detection tool in high school and used his literature professor as a test subject.\n\nOur guest is a teen founder who created an AI-powered dermatology tool to help his mom before he ever stepped into a college classroom.\n\nWhat happens when a high schooler's side project catches something doctors could have missed?\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#SkinCancerDetection #TeenFounder #AIinHealthcare #HealthTech",
+      "yt_description": "He built a skin cancer detection tool in high school and used his literature professor as a test subject.\n\nOur guest is a teen founder who created an AI-powered dermatology tool to help his mom before he ever stepped into a college classroom.\n\nWhat happens when a high schooler's side project catches something doctors could have missed?\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#SkinCancerDetection #TeenFounder #AIinHealthcare #HealthTech",
+      "tiktok_caption": "He saved his professor's life with an app he built in high school. What he found with it will shock you. #SkinCancerDetection #TeenFounder #HealthTech",
+      "hashtags": [
+        "SkinCancerDetection",
+        "TeenFounder",
+        "AIinHealthcare",
+        "HealthTech"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-02.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 2.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-09",
+      "clip_number": 3,
+      "title": "His Mom's Melanoma Inspired This App",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 21,
+      "ig_caption": "His mom waited 3 to 6 months to see a dermatologist \u2014 even with a history of melanoma.\n\nOur guest built an app out of his bedroom after watching his mom navigate impossible wait times for skin cancer care in Oklahoma.\n\nFind out how a personal health crisis turned into a tool that could change when patients get seen and how fast.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#MelanomaAwareness #DermatologyAccess #HealthTechStartup #SkinCancerDetection",
+      "yt_description": "His mom waited 3 to 6 months to see a dermatologist \u2014 even with a history of melanoma.\n\nOur guest built an app out of his bedroom after watching his mom navigate impossible wait times for skin cancer care in Oklahoma.\n\nFind out how a personal health crisis turned into a tool that could change when patients get seen and how fast.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#MelanomaAwareness #DermatologyAccess #HealthTechStartup #SkinCancerDetection",
+      "tiktok_caption": "His mom had melanoma and waited months to see a derm. So he built an app. Here's what came out of it. #MelanomaAwareness #DermatologyAccess #HealthTech",
+      "hashtags": [
+        "MelanomaAwareness",
+        "DermatologyAccess",
+        "HealthTechStartup",
+        "SkinCancerDetection"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-03.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 3.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-10",
+      "clip_number": 4,
+      "title": "93% of Skin Cancer AI Data Is Biased",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 50,
+      "ig_caption": "Over 93% of skin cancer AI data is biased toward lighter skin tones.\n\nOur guest's co-founder ran NSF-backed research at Georgia State University and developed a patented AI technique to fix this before they even built their company.\n\nFind out how domain adaptation is being used to close the racial bias gap in skin cancer detection.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#SkinCancerAI #HealthEquity #DermatologyTech #AIBias #DigitalHealth",
+      "yt_description": "Over 93% of skin cancer AI data is biased toward lighter skin tones.\n\nOur guest's co-founder ran NSF-backed research at Georgia State University and developed a patented AI technique to fix this before they even built their company.\n\nFind out how domain adaptation is being used to close the racial bias gap in skin cancer detection.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#SkinCancerAI #HealthEquity #DermatologyTech #AIBias #DigitalHealth",
+      "tiktok_caption": "93% of skin cancer AI data ignores darker skin tones. Our guest built patented tech to fix it. #SkinCancerAI #AIBias #HealthEquity",
+      "hashtags": [
+        "SkinCancerAI",
+        "HealthEquity",
+        "DermatologyTech",
+        "AIBias",
+        "DigitalHealth"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-04.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 4.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-11",
+      "clip_number": 5,
+      "title": "18 Skin Cancers Caught in Just Months",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 23,
+      "ig_caption": "18 skin cancers caught in just months after going live.\n\nOur guest built a service that has already flagged 18 potential skin cancers across 100 patients, with the majority confirmed by pathology.\n\nHow early detection at this scale actually works in practice is something most people never get to hear firsthand.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#SkinCancer #EarlyDetection #Dermatology #HealthTech",
+      "yt_description": "18 skin cancers caught in just months after going live.\n\nOur guest built a service that has already flagged 18 potential skin cancers across 100 patients, with the majority confirmed by pathology.\n\nHow early detection at this scale actually works in practice is something most people never get to hear firsthand.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#SkinCancer #EarlyDetection #Dermatology #HealthTech",
+      "tiktok_caption": "18 skin cancers caught in months. Our guest's new service is already changing outcomes. Here's how. #SkinCancer #EarlyDetection #HealthTech",
+      "hashtags": [
+        "SkinCancer",
+        "EarlyDetection",
+        "Dermatology",
+        "HealthTech"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-05.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 5.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-12",
+      "clip_number": 6,
+      "title": "Island Patient With Melanoma Changed Everything",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 54,
+      "ig_caption": "A patient on a small island in Puerto Rico almost never got checked for melanoma.\n\nOur guest built a teledermatology service catching dangerous skin lesions in communities too far from specialist care to get help otherwise.\n\nFind out how one flagged lesion changed how they think about the access gap they're really solving.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#Teledermatology #MelanomaAwareness #HealthcareAccess #DigitalHealth",
+      "yt_description": "A patient on a small island in Puerto Rico almost never got checked for melanoma.\n\nOur guest built a teledermatology service catching dangerous skin lesions in communities too far from specialist care to get help otherwise.\n\nFind out how one flagged lesion changed how they think about the access gap they're really solving.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#Teledermatology #MelanomaAwareness #HealthcareAccess #DigitalHealth",
+      "tiktok_caption": "A patient in Puerto Rico almost missed a melanoma diagnosis. Our guest's teledermatology service caught it. This is the access gap nobody talks about. #Teledermatology #MelanomaAwareness #HealthcareAccess",
+      "hashtags": [
+        "Teledermatology",
+        "MelanomaAwareness",
+        "HealthcareAccess",
+        "DigitalHealth"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-06.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 6.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-13",
+      "clip_number": 7,
+      "title": "220,000 Users, Zero Marketing Dollars Spent",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 19,
+      "ig_caption": "220,000 users worldwide. Zero dollars spent on marketing.\n\nOur guest built a global health tech user base from scratch, crossing 85,000 users in the U.S. alone through pure organic growth.\n\nHear exactly how a product grows that fast without a marketing budget and what it says about building something people actually need.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthTech #OrganicGrowth #DigitalHealth #StartupGrowth",
+      "yt_description": "220,000 users worldwide. Zero dollars spent on marketing.\n\nOur guest built a global health tech user base from scratch, crossing 85,000 users in the U.S. alone through pure organic growth.\n\nHear exactly how a product grows that fast without a marketing budget and what it says about building something people actually need.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#HealthTech #OrganicGrowth #DigitalHealth #StartupGrowth",
+      "tiktok_caption": "220K users, $0 in marketing. Our guest reveals how they pulled it off. #HealthTech #OrganicGrowth #DigitalHealth",
+      "hashtags": [
+        "HealthTech",
+        "OrganicGrowth",
+        "DigitalHealth",
+        "StartupGrowth"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-07.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 7.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-14",
+      "clip_number": 8,
+      "title": "Healthcare Is in Collapse Worldwide",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 35,
+      "ig_caption": "Healthcare is collapsing worldwide and we barely notice it.\n\nOur guest, an immigrant who navigated the US healthcare system firsthand, breaks down why booking a stock trade takes 5 minutes but booking a doctor takes 5 phone calls.\n\nWatch to understand the absurd funding gap between healthcare and finance, and what it actually means for patients.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthcareSystem #HealthcareReform #HealthTech #PatientExperience",
+      "yt_description": "Healthcare is collapsing worldwide and we barely notice it.\n\nOur guest, an immigrant who navigated the US healthcare system firsthand, breaks down why booking a stock trade takes 5 minutes but booking a doctor takes 5 phone calls.\n\nWatch to understand the absurd funding gap between healthcare and finance, and what it actually means for patients.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#HealthcareSystem #HealthcareReform #HealthTech #PatientExperience",
+      "tiktok_caption": "You can invest in stocks in 5 min but can't see a doctor in 5 calls. Our guest on why healthcare is broken. #HealthcareSystem #HealthTech #HealthcareReform",
+      "hashtags": [
+        "HealthcareSystem",
+        "HealthcareReform",
+        "HealthTech",
+        "PatientExperience"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-08.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 8.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-15",
+      "clip_number": 9,
+      "title": "The Brazilian Passport Black Market Secret",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 29,
+      "ig_caption": "The Brazilian passport is the most valuable on the black market, and the reason why is not what you'd expect.\n\nOur guest knows Brazil's diversity from the inside out, bringing a firsthand perspective on why the country defies every demographic stereotype.\n\nFind out what this says about identity, appearance, and how the world actually sees Brazilians.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#BrazilianCulture #PassportPrivilege #GlobalIdentity #Demographics",
+      "yt_description": "The Brazilian passport is the most valuable on the black market, and the reason why is not what you'd expect.\n\nOur guest knows Brazil's diversity from the inside out, bringing a firsthand perspective on why the country defies every demographic stereotype.\n\nFind out what this says about identity, appearance, and how the world actually sees Brazilians.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#BrazilianCulture #PassportPrivilege #GlobalIdentity #Demographics",
+      "tiktok_caption": "Why is the Brazilian passport the most valuable on the black market? Our guest breaks down the surprising truth. #Brazil #PassportPrivilege #GlobalIdentity",
+      "hashtags": [
+        "BrazilianCulture",
+        "PassportPrivilege",
+        "GlobalIdentity",
+        "Demographics"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-09.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 9.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-16",
+      "clip_number": 10,
+      "title": "We Have One of the Largest Skin Image Datasets",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 17,
+      "ig_caption": "They now have one of the largest raw skin image datasets in the world.\n\nOur guest built this through real-world app usage, turning everyday users into contributors to a growing AI training engine.\n\nFind out how that data is being looped back to make the technology smarter with every scan.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#SkinAI #DermatologyTech #HealthcareAI #AIinMedicine",
+      "yt_description": "They now have one of the largest raw skin image datasets in the world.\n\nOur guest built this through real-world app usage, turning everyday users into contributors to a growing AI training engine.\n\nFind out how that data is being looped back to make the technology smarter with every scan.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#SkinAI #DermatologyTech #HealthcareAI #AIinMedicine",
+      "tiktok_caption": "One of the largest skin image datasets in the world built from an app \ud83d\udc40 Our guest explains how it keeps getting smarter #SkinAI #DermatologyTech #AIinMedicine",
+      "hashtags": [
+        "SkinAI",
+        "DermatologyTech",
+        "HealthcareAI",
+        "AIinMedicine"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-10.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 10.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-17",
+      "clip_number": 11,
+      "title": "AI in Healthcare Is Still Just Back Office Automation",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 43,
+      "ig_caption": "The AI revolution in healthcare is mostly just automating back office tasks \u2014 and that's a problem.\n\nOur guest is deep in building the next wave of AI that moves beyond NLP for paperwork into real diagnostics and clinical care.\n\nFind out what the second wave of healthcare AI actually looks like and why most people are still sleeping on it.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthcareAI #ClinicalAI #AIinMedicine #DigitalHealth",
+      "yt_description": "The AI revolution in healthcare is mostly just automating back office tasks and that's a problem.\n\nOur guest is deep in building the next wave of AI that moves beyond NLP for paperwork into real diagnostics and clinical care.\n\nFind out what the second wave of healthcare AI actually looks like and why most people are still sleeping on it.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#HealthcareAI #ClinicalAI #AIinMedicine #DigitalHealth",
+      "tiktok_caption": "AI in healthcare is still just back office automation. Our guest explains what the real revolution looks like. #HealthcareAI #ClinicalAI #DigitalHealth",
+      "hashtags": [
+        "HealthcareAI",
+        "ClinicalAI",
+        "AIinMedicine",
+        "DigitalHealth"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-11.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 11.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-18",
+      "clip_number": 12,
+      "title": "From Sophomore to Quarter Million in Pre-Orders",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 40,
+      "ig_caption": "I was willing to hit my head against the wall as many times as needed until I found a hole through it.\n\nOur guest built a medical device startup as a sophomore and landed over $250K in pre-orders from East Africa before most people finish their first internship.\n\nWhat actually stopped them from fulfilling those orders reveals the gap nobody talks about between a great product and a funded one.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#MedicalDevices #GlobalHealth #StartupFounder #EastAfrica",
+      "yt_description": "I was willing to hit my head against the wall as many times as needed until I found a hole through it.\n\nOur guest built a medical device startup as a sophomore and landed over $250K in pre-orders from East Africa before most people finish their first internship.\n\nWhat actually stopped them from fulfilling those orders reveals the gap nobody talks about between a great product and a funded one.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#MedicalDevices #GlobalHealth #StartupFounder #EastAfrica",
+      "tiktok_caption": "250K in pre-orders as a college sophomore \u2014 then it all fell apart. Here's why. #MedicalDevices #GlobalHealth #StartupFounder",
+      "hashtags": [
+        "MedicalDevices",
+        "GlobalHealth",
+        "StartupFounder",
+        "EastAfrica"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-12.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 12.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-19",
+      "clip_number": 13,
+      "title": "You'll Wait 3\u20134 Months Just to Get a Skin Check",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 44,
+      "ig_caption": "Even with insurance and a primary care doctor, you're still waiting 3 to 4 months just to see a dermatologist.\n\nOur guest works directly inside the dermatology access gap and has seen firsthand how the referral system fails patients before they ever reach a specialist.\n\nBy the time your appointment arrives, your condition has either gotten much worse or completely disappeared. Watch to hear what that means for early skin cancer detection.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#Dermatology #SkinCancer #HealthcareAccess #PatientCare",
+      "yt_description": "Even with insurance and a primary care doctor, you're still waiting 3 to 4 months just to see a dermatologist.\n\nOur guest works directly inside the dermatology access gap and has seen firsthand how the referral system fails patients before they ever reach a specialist.\n\nBy the time your appointment arrives, your condition has either gotten much worse or completely disappeared. Watch to hear what that means for early skin cancer detection.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#Dermatology #SkinCancer #HealthcareAccess #PatientCare",
+      "tiktok_caption": "You have insurance AND a doctor and still wait 4 months for a skin check. Here's why that's a real problem. #Dermatology #SkinCancer #HealthcareAccess",
+      "hashtags": [
+        "Dermatology",
+        "SkinCancer",
+        "HealthcareAccess",
+        "PatientCare"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-13.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 13.mp4",
+      "status": "pending"
+    },
+    {
+      "date": "2026-08-20",
+      "clip_number": 14,
+      "title": "Get Skin in the Game Early \u2014 Advice for Founders",
+      "episode": "Episode 37 - SkinCheck",
+      "duration": 45,
+      "ig_caption": "Become truly passionate and obsessed about the problem.\n\nOur guest built SkinCheck after personally shadowing dermatologists and visiting FQHCs to see exactly what patients were facing.\n\nHere's why getting that firsthand exposure early is what separates founders who last from those who quit.\n\nFull episode with our guest \ud83c\udf99\ufe0f link in bio\n\n#HealthcareFounders #MedicalStartups #SkinCheck #FounderAdvice #DigitalHealth",
+      "yt_description": "Become truly passionate and obsessed about the problem.\n\nOur guest built SkinCheck after personally shadowing dermatologists and visiting FQHCs to see exactly what patients were facing.\n\nHere's why getting that firsthand exposure early is what separates founders who last from those who quit.\n\nFull episode with our guest \ud83c\udf99\ufe0f https://medicalinnovationpod.com/episode/episode-37\n\n#HealthcareFounders #MedicalStartups #SkinCheck #FounderAdvice #DigitalHealth",
+      "tiktok_caption": "Obsessed with the problem before writing a line of code. Our guest on what it really takes to build in healthcare. #HealthcareFounders #MedicalStartups #DigitalHealth",
+      "hashtags": [
+        "HealthcareFounders",
+        "MedicalStartups",
+        "SkinCheck",
+        "FounderAdvice",
+        "DigitalHealth"
+      ],
+      "episode_url": "https://medicalinnovationpod.com/episode/episode-37",
+      "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-14.mp4",
+      "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 14.mp4",
+      "status": "pending"
     }
   ]
 }
