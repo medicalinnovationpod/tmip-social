@@ -1873,7 +1873,8 @@
       "episode_url": "https://medicalinnovationpod.com/episode/episode-37-democratizing-dermatology-with-ai---skincheck-dani-marques-ceo-of-skincheck/",
       "r2_url": "https://raw.githubusercontent.com/medicalinnovationpod/tmip-clips/main/episode-37-clip-11.mp4",
       "local_path": "/Users/pranavsanghvi/TMIP/Clips/Episode 37 - Clip 11.mp4",
-      "status": "pending"
+      "status": "failed",
+      "error": "Instagram processing error: {'status_code': 'ERROR', 'status': 'ERROR', 'id': '17892795369599881'}"
     },
     {
       "date": "2026-08-18",
